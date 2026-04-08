@@ -112,6 +112,7 @@
     "LED_MATRIX_DEFAULT_ON": {"info_key": "led_matrix.default.on", "value_type": "bool"},
     "LED_MATRIX_DEFAULT_VAL": {"info_key": "led_matrix.default.val", "value_type": "int"},
     "LED_MATRIX_DEFAULT_SPD": {"info_key": "led_matrix.default.speed", "value_type": "int"},
+    "LED_MATRIX_DEFAULT_FLAGS": {"info_key": "led_matrix.default.flags", "value_type": "int"},
 
     // Locking Switch
     "LOCKING_SUPPORT_ENABLE": {"info_key": "qmk.locking.enabled", "value_type": "flag"},
@@ -166,6 +167,7 @@
     "RGB_MATRIX_DEFAULT_SAT": {"info_key": "rgb_matrix.default.sat", "value_type": "int"},
     "RGB_MATRIX_DEFAULT_VAL": {"info_key": "rgb_matrix.default.val", "value_type": "int"},
     "RGB_MATRIX_DEFAULT_SPD": {"info_key": "rgb_matrix.default.speed", "value_type": "int"},
+    "RGB_MATRIX_DEFAULT_FLAGS": {"info_key": "rgb_matrix.default.flags", "value_type": "int"},
 
     // RGBLight
     "RGBLED_SPLIT": {"info_key": "rgblight.split_count", "value_type": "array.int"},
@@ -194,7 +196,7 @@
 
     // Split Keyboard
     "SOFT_SERIAL_PIN": {"info_key": "split.serial.pin"},
-    "SELECT_SOFT_SERIAL_SPEED": {"info_key": "split.serial.speed"},
+    "SELECT_SOFT_SERIAL_SPEED": {"info_key": "split.serial.speed", "value_type": "int"},
     "SPLIT_HAND_MATRIX_GRID": {"info_key": "split.handedness.matrix_grid", "value_type": "array", "to_c": false},
     "SPLIT_HAND_PIN": {"info_key": "split.handedness.pin"},
     "SPLIT_USB_DETECT": {"info_key": "split.usb_detect.enabled", "value_type": "flag"},
@@ -222,6 +224,7 @@
     "PERMISSIVE_HOLD_PER_KEY": {"info_key": "tapping.permissive_hold_per_key", "value_type": "flag"},
     "RETRO_TAPPING": {"info_key": "tapping.retro", "value_type": "flag"},
     "RETRO_TAPPING_PER_KEY": {"info_key": "tapping.retro_per_key", "value_type": "flag"},
+    "SPECULATIVE_HOLD": {"info_key": "tapping.speculative_hold", "value_type": "flag"},
     "TAP_CODE_DELAY": {"info_key": "qmk.tap_keycode_delay", "value_type": "int"},
     "TAP_HOLD_CAPS_DELAY": {"info_key": "qmk.tap_capslock_delay", "value_type": "int"},
     "TAPPING_TERM": {"info_key": "tapping.term", "value_type": "int"},
